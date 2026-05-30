@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv
+env/
+venv/
+
+# Data
+!data/**/.gitkeep
+data/raw/*
+data/processed/*
+
+# BI files (sometimes large)
+*.pbix
+*.twbx
+*.hyper
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
